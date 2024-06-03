@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+body > header{
+    background-color: darkslategray;
+    padding: 16px 0;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+ width: 1336px;
+ margin: 0 auto;   
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    height: 240px;
+    width: 100%;
+}
+
+.article article{
+    width: 30%;
+}
+
+.article article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+}
+
+.article article a, .article article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+section h2, .article article
+{
+    margin-bottom: 16px;
+}
+
+.article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+#economy{
+    background-color: rgb(243, 235, 11, 0.15);
+}
+
+#sports{
+    background-color: rgb(42, 228, 76, 0.15);
+}
+
+#entertainment{
+    background-color: rgb(116, 42, 228, 0.15);
+}
+
+#technology{
+    background-color: rgba(31, 31, 180, 0.15);
+}
+
+#economy h2{
+    color: gold;
+}
+
+#sports h2{
+    color: rgb(154, 228, 42);
+}
+
+#entertainment h2{
+    color: blueviolet;
+}
+
+#technology h2{
+    color: blue;
+}
+
+#economy .article article a{
+    background-color: rgba(243, 220, 11, 0.8);
+}
+
+#sports .article article a{
+    background-color: rgb(42, 228, 76, 0.8);
+}
+
+#entertainment .article article a{
+    background-color: rgb(116, 42, 228, 0.8);
+}
+
+#technology .article article a{
+    background-color: rgba(31, 31, 180, 0.8);
+}
+
+.creation-date{
+    color: #ccc;
+}
